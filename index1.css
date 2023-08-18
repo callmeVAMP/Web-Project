@@ -1,0 +1,47 @@
+body{
+  text-align: center;
+  background-image: url(https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  font-weight: bold;
+}
+h1{
+  color: goldenrod;
+  font-size: 3.5em;
+}
+#message-el{
+  color: white;
+  font-size: 2em;
+  font-style: italic;
+}
+#message-el1{
+  color: white;
+  font-size: 2em;
+  font-style: italic;
+}
+#message-el2{
+  color: white;
+  font-size: 2em;
+  font-style: italic;
+}
+#start{
+  color: #016f32;
+  width: 250px;
+  background-color: goldenrod;
+  font-size: 2.5em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+}
+#start1{
+  color: #016f32;
+  width: 250px;
+  background-color: goldenrod;
+  font-size: 2.5em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  margin-top: 10px;
+}

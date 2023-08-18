@@ -1,0 +1,81 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(img2.jpg);
+}
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 60px;
+}
+h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: 'Abril Fatface', cursive;
+    color: darkgreen;
+}
+.reset{
+    color: aquamarine;
+    padding: 5px 20px;
+    border:1px solid turquoise;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+    background: none;
+}
+.reset:focus{
+    color: blue;
+    background-color: chartreuse;
+}
+.game{
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    transform-style: preserve-3d;
+    perspective: 500px;
+}
+.item{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    background-color: blueviolet;
+    transform: rotateY(180deg);
+    transition: 0.25s;
+}
+.item.boxOpen{
+    transform: rotateY(0deg)
+}
+.item::after{
+    content: '';
+    position: absolute;
+    inset:0;
+    background-color: chocolate;
+    transition: 0.25s;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
+}
+.boxOpen:after,
+.boxMatch:after{
+    transform: rotateY(180deg);
+}

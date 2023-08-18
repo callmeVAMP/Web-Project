@@ -1,0 +1,124 @@
+*{
+    text-align: center;
+    background-image: url(https://cutewallpaper.org/27/black-and-purple-wallpaper-gif/needs-more-gamzee-purple-aesthetic-purple-black-background-wallpaper.gif);
+    
+}
+#enter{
+    margin-top: 150px;
+    font-size: 3em;
+    font-weight: bold;
+    position: relative;
+    top: 50px;
+    color:#ff3e3e;
+    font-family: 'Lemon', cursive;
+    letter-spacing: 10%;
+}
+
+.inp-border {
+    padding: 5px;
+    margin: 2em 1em;
+    border-radius: 50px;
+    max-width: 300px;
+    position: relative;
+    left : 430px;
+    top: 100px;
+  }
+  @media screen and (max-width:700px) {
+    .inp-border{
+      position: relative;
+      left: 100px;
+    }
+  }
+  #input {
+    text-align: center;
+    padding: 15px;
+    outline: none;
+    border: double 0;
+    background:aliceblue;
+    border-radius: 50px;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    font-size: 1.5rem;
+    
+  }
+  
+  .a1 {
+    background: linear-gradient(
+      330.28deg,
+      #ff6e1d 100%,
+      #ff6e1d 100%,
+      #ff6e1d 100%
+    );
+    
+  }
+  
+  .a1 > input {
+    color: #caab98;
+  }
+  
+  .a1 > input::placeholder {
+    color: #ff6e1d;
+    opacity: 0.6;
+  }
+  
+  .inp-border:focus-within {
+    background: linear-gradient(
+      330.28deg,
+      #2cfff2 0%,
+      #1e78ff 30.73%,
+      #ff54a6 55.73%,
+      #ff6e1d 79.17%,
+      #ff3e3e 100%
+    );
+  }
+  
+  .inp-border:hover {
+    background: linear-gradient(
+      330.28deg,
+      #2cfff2 0%,
+      #1e78ff 30.73%,
+      #ff54a6 55.73%,
+      #ff6e1d 79.17%,
+      #ff3e3e 100%
+    );
+  }
+#submit{
+  position: relative;
+  top: 100px;
+}
+
+button {
+  width: 9em;
+  height: 3em;
+  border-radius: 30em;
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: bold;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  color:blue;
+  box-shadow: 6px 6px 12px white,
+              -6px -6px 12px #ffffff;
+ }
+ 
+ button::before {
+  content: '';
+  width: 0;
+  height: 3em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+ 
+ button:hover::before {
+  width: 9em;
+ }

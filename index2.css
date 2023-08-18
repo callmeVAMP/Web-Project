@@ -1,0 +1,16 @@
+body{
+    background-image: url(https://wallpapers.com/images/hd/dark-blue-paint-strokes-1rsfpmx7gtht9j79.jpg);
+    text-align: center;
+    color: chartreuse;
+    font-size: 2em;
+}
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    color: blueviolet;
+    text-align: center;
+    font-family: 'Bungee Spice', cursive;
+}
+#final{
+    font-family: 'Bungee Spice', cursive;
+}

@@ -1,0 +1,250 @@
+body{
+    background-image: url(blue.jpg);
+    animation: firework 4s infinite;
+}
+
+h1 {
+  height: 100px;
+  padding-left: 250px;
+  padding-bottom: 100px;
+}
+
+h1 span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  animation: bounce .3s ease infinite alternate;
+  font-family: 'Titan One'cursive;
+  font-size: 80px;
+  color: #fff;
+  text-shadow: 0 1px 0 green,
+      0 2px 0 green,
+      0 3px 0 green,
+      0 4px 0 green,
+      0 5px 0 green,
+      0 6px 0 transparent,
+      0 7px 0 transparent,
+      0 8px 0 transparent,
+      0 9px 0 transparent,
+      0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+h1 span:nth-child(2) {
+  animation-delay: .1s;
+}
+
+h1 span:nth-child(3) {
+  animation-delay: .2s;
+}
+
+h1 span:nth-child(4) {
+  animation-delay: .3s;
+}
+
+h1 span:nth-child(5) {
+  animation-delay: .4s;
+}
+
+h1 span:nth-child(6) {
+  animation-delay: .5s;
+}
+
+h1 span:nth-child(7) {
+  animation-delay: .6s;
+}
+
+h1 span:nth-child(8) {
+  animation-delay: .7s;
+}
+h1 span:nth-child(9) {
+  animation-delay: .8s;
+}
+h1 span:nth-child(10) {
+  animation-delay: .9s;
+}
+h1 span:nth-child(11) {
+  animation-delay: .10s;
+}
+
+@keyframes bounce {
+  100% {
+      top: -20px;
+      text-shadow: 0 1px 0 #CCC,
+          0 2px 0 #CCC,
+          0 3px 0 #CCC,
+          0 4px 0 #CCC,
+          0 5px 0 #CCC,
+          0 6px 0 #CCC,
+          0 7px 0 #CCC,
+          0 8px 0 #CCC,
+          0 9px 0 #CCC,
+          0 50px 25px rgba(0, 0, 0, 0.2);
+  }
+}
+.intro{
+    font-size: 5em;
+    text-shadow: 2em;
+    word-spacing: 10%;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    margin-left: 500px;
+    color: midnightblue;
+    margin-top: 7%;
+    
+}
+.inp-border {
+  padding: 5px;
+  margin: 2em 1em;
+  border-radius: 50px;
+  max-width: 300px;
+}
+
+.input {
+  text-align: center;
+  padding: 15px;
+  outline: none;
+  border: double 0;
+  background: #252525;
+  border-radius: 50px;
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.a1 {
+  background: linear-gradient(
+    330.28deg,
+    #ff6e1d 100%,
+    #ff6e1d 100%,
+    #ff6e1d 100%
+  );
+}
+
+.a1 > input {
+  color: #caab98;
+}
+
+.a1 > input::placeholder {
+  color: #ff6e1d;
+  opacity: 0.6;
+}
+
+.inp-border:focus-within {
+  background: linear-gradient(
+    330.28deg,
+    #2cfff2 0%,
+    #1e78ff 30.73%,
+    #ff54a6 55.73%,
+    #ff6e1d 79.17%,
+    #ff3e3e 100%
+  );
+}
+
+.inp-border:hover {
+  background: linear-gradient(
+    330.28deg,
+    #2cfff2 0%,
+    #1e78ff 30.73%,
+    #ff54a6 55.73%,
+    #ff6e1d 79.17%,
+    #ff3e3e 100%
+  );
+}
+
+.rubik{
+    
+}
+h2{
+   color:mediumvioletred
+}
+#greeting{
+    color: aliceblue;
+    margin-left: 65%;
+    position: relative;
+    top: 150px;
+    font-size: 2em;
+    animation: typing;
+    animation-duration: 2sec;
+}
+#tictac,.tic{
+    box-shadow: 20px;
+    margin-left: 10%;
+    position: relative;
+    top: 0px;
+}
+#tictac:hover, #rubic:hover, #BlackJack:hover, #memory:hover{
+    
+}
+#tictac{
+    margin-left: 11%;
+}
+
+#memory,.mem{
+    margin-left: 10%;
+    position: relative;
+    bottom: 130px;
+}
+#memory{
+    margin-left: 12%;
+}
+#BlackJack,.black{
+    margin-left: 30%;
+    position: relative;
+    top: 40px;
+}
+#BlackJack{
+    margin-left: 31%;
+}
+.rock,#rock-paper{
+    margin-left: 30%;
+    position: relative;
+    bottom: 510px;
+    
+}
+@media screen and (max-width:500px){
+  h1 span{
+    font-size:35px;
+  }
+  h1{
+    text-align: center;
+    height: 50px;
+    padding-left: 20px;
+    padding-top: 20px;
+  }
+  #tictac,#BlackJack,#memory,#rock-paper{
+    width: 85px;
+  }
+  #rock-paper{
+    position: relative;
+    bottom: 435px;
+    left: 140px;
+  }
+  .tic, .black,.mem,.rock{
+    font-size: 1.25em;
+  }
+  #memory{
+    position: relative;
+    bottom: 85px;
+  }
+  #BlackJack{
+    position: relative;
+    top: 60px;
+    left: 160px;
+  }
+  .mem{
+    position: relative;
+    bottom: 80px;
+  }
+  .black{
+    position: relative;
+    top: 65px;
+    margin-left: 270px;
+  }
+  .rock{
+    position:relative;
+    bottom: 430px;
+    margin-left: 250px;
+  }
+}
