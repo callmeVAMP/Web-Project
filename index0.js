@@ -9,6 +9,6 @@ function getval(){
     const val = inpu.value;
     console.log(val);
     greet.innerText = "HELLO! " + val + "😎";
-    sub.innerHTML = "<a href='index.html'>ENTER</a>";
+    sub.innerHTML = "<a href='index5.html'>ENTER</a>";
     box.innerHTML = "";
 }
