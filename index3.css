@@ -21,6 +21,12 @@ body{
     position: relative;
     bottom: 20px;
   }
+@media screen and (max-width:500px){
+    .grid-container{
+        margin-left: 10%;
+        width: 40%;
+    }
+}
 #b1, #b2, #b3, #b4, #b4, #b5, #b6, #b7, #b8, #b9{
     padding: 25px;
     font-size: 45px;
