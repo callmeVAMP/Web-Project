@@ -218,8 +218,8 @@ h2{
   }
   #rock-paper{
     position: relative;
-    bottom: 435px;
-    left: 140px;
+    bottom: 445px;
+    left: 120px;
   }
   .tic, .black,.mem,.rock{
     font-size: 1.25em;
@@ -230,8 +230,8 @@ h2{
   }
   #BlackJack{
     position: relative;
-    top: 60px;
-    left: 160px;
+    top: 70px;
+    left: 140px;
   }
   .mem{
     position: relative;
@@ -239,12 +239,12 @@ h2{
   }
   .black{
     position: relative;
-    top: 65px;
-    margin-left: 270px;
+    top: 75px;
+    margin-left: 250px;
   }
   .rock{
     position:relative;
-    bottom: 430px;
-    margin-left: 250px;
+    bottom: 440px;
+    margin-left: 230px;
   }
 }
