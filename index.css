@@ -26,7 +26,8 @@
   @media screen and (max-width:700px) {
     .inp-border{
       position: relative;
-      left: 70px;
+      left: 50px;
+        max-width: 250px;
     }
   }
   #input {
